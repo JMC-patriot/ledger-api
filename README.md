@@ -19,7 +19,9 @@ FastAPI + SQLAlchemy + Supabase(PostgreSQL)로 만든 계좌·거래·카테고�
 ## 실습 기록
 
 ### ① 결과 확인
-(Supabase Table Editor의 transactions 캡처를 붙인다. Render 배포 후에는 /docs의 GET /accounts 캡처도 함께.)
+Supabase Table Editor의 `transactions` 테이블 — API로 넣은 거래 2건(점심 -12000, 지하철 -1500)이 저장되어 있다.
+
+![Supabase transactions](supabase_transactions.png)
 
 ### ② 핵심 개념 되새김 (자기 말로 한 줄씩)
 - 계좌·거래를 두 테이블로 나눈 이유(1:N 관계):
