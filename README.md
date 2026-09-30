@@ -1,7 +1,7 @@
 # 가계부 API (ledger-api)
 
 - GitHub: https://github.com/JMC-patriot/ledger-api
-- Render: (과제 단계 5에서 채우기 — https://<서비스>.onrender.com/docs)
+- Render: https://ledger-api-aoy5.onrender.com/docs
 
 FastAPI + SQLAlchemy + Supabase(PostgreSQL)로 만든 계좌·거래·카테고리 API.
 
